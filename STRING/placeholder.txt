@@ -1,0 +1,11 @@
+%c - Character
+%d - Decimal Number
+%e - Exponential floating point Number
+%f - floating point Number
+%i - Integer 
+%o - Octal Number
+%s - STring
+%u - Unsigned decimal 
+%x - Hexadecimal Number
+%t - Date/time
+%n - Newline
