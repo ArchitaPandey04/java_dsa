@@ -1,0 +1,32 @@
+// WRITE A PROGRAM TO PRINT ALL NATURAL NUMBERS FROM n to 1 USING RECURSION
+
+import java.util.Scanner;
+
+public class Rec1 { 
+
+    static void printDecreasing(int n){
+//base case
+        if (n == 1){
+            System.out.println(n);
+            return;
+        }
+
+
+
+// self work
+        System.out.println(n);
+//recursive work
+        printDecreasing(n-1);
+    }
+
+
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        int n = sc.nextInt();
+        printDecreasing(n);
+
+        sc.close();
+    }
+
+    
+}
